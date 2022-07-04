@@ -17,7 +17,7 @@
  var cors = require('cors');
  var cookieParser = require('cookie-parser');
  const { URLSearchParams } = require('url');
- const { ClientConfig } = require("../client_config.js");
+ const { ClientConfig } = require("../config/client_config.js");
  
  var client_id = ClientConfig.id; // Your client id
  var client_secret = ClientConfig.secret; // Your secret
